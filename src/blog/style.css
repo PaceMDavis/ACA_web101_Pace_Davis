@@ -4,15 +4,43 @@
   height: 120px;
 }
 
-a{
+a {
   text-decoration:none;
 }
-.box {
-  border: 3px solid black;
-  display:inline; 
-  width:100%;
-  box-align:right;
+.header{
+  display: block;
+  float:right;
 }
+.box {
+  /*border: 3px solid black; */
+  font-family: "Open Sans";
+  font-size: 18px;
+  padding: 6px; 
+}
+.title {
+  font-weight: bold;
+  font-family: 'Open Sans';
+  font-size: 18px;
+  color:black !important;
+  padding: 4px 0px 0px 0px;
+}
+
 .posts {
-  border: 1px solid grey;
+  border-bottom: 1px solid grey;
+  border-top:1px solid grey;
+  display: inline-block;
+}
+#first-title {
+  color:red;
+}
+.date {
+  padding:3px 0px 3px 0px;
+  font-family: 'American Typewriter' !important;
+  font-size: 17px;
+  font-weight: lighter;
+}
+.description {
+  font-size: 16px;
+  font-family: 'open sans';
+  padding: 0px 0px 4px 0px;
 }
