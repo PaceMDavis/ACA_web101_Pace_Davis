@@ -1,0 +1,18 @@
+.logo {
+  border: 2px solid black;
+  width: 100px;
+  height: 120px;
+}
+
+a{
+  text-decoration:none;
+}
+.box {
+  border: 3px solid black;
+  display:inline; 
+  width:100%;
+  box-align:right;
+}
+.posts {
+  border: 1px solid grey;
+}
