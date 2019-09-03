@@ -8,8 +8,7 @@ a {
   text-decoration:none;
 }
 .header{
-  display: block;
-  float:right;
+  display: flexbox;
 }
 .box {
   /*border: 3px solid black; */
