@@ -1,0 +1,85 @@
+
+.bicycle {
+  width:100%;
+}
+.header {
+  width: 100%;
+  height:auto;
+  position:relative;
+}
+.logo-text {
+  z-index:100;
+    position:absolute;    
+    color:rgb(17, 199, 223);
+    left:43%;
+    top:75%;
+}
+h1 {
+  font-size:50px;
+  font-weight:bold;
+  font-family:"Open Sans";
+}
+p {
+  font-size: 38px;
+  font-weight:bold;
+  font-family: "Open Sans";
+  padding:0px 0px 0px 40px;
+}
+/* div span{ 
+  display:flexbox;
+  float:right;
+  position:relative;
+  border: 1px solid grey;
+}
+/* .button { 
+  display:flexbox;
+  float:right;
+  padding:40px 0px 0px 0px; 
+
+}*/
+.box {
+  /*border: 3px solid black; */
+  font-family: "Open Sans";
+  font-size: 18px;
+  padding: 6px; 
+}
+.title {
+  font-weight: bold;
+  font-family: 'Open Sans';
+  font-size: 18px;
+  color:black !important;
+  padding: 4px 0px 0px 0px;
+}
+
+.posts {
+  border: 1px solid grey;
+  display: block;
+  width:50%;
+  margin:auto;
+  background-color:white;
+}
+#first-title {
+  color:red;
+}
+.date {
+  padding:3px 0px 3px 0px;
+  font-family: 'American Typewriter' !important;
+  font-size: 17px;
+  font-weight: lighter;
+}
+.description {
+  font-size: 16px;
+  font-family: 'open sans';
+  padding: 0px 0px 4px 0px;
+}
+#hello {
+  background-color:rgb(135, 148, 156);
+}
+
+.spacer {
+  width:100%;
+  padding:15px;
+}
+.footer {
+  background-color:white;
+}
