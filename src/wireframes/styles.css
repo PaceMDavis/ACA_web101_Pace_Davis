@@ -5,73 +5,113 @@
 }
 #img-div {
   display:inline-block;
-  border:1px solid black;
+  /* border:1px solid black; */
   padding:10px 0px 0px 10px;
 }
-/*.maintcontainer {
-   width:70%; 
-}*/
-/* h1 {
-  z-index:100;
-  position:absolute;
-  right:29%;
-  top:5%;
+.header-text {
+  float:right;
+  /* border:1px solid red; */
+  width:76%;
+  margin: 30px 0px 0px 0px;
+}  
+h1 {
+  text-align:center;
+  font-family:"Calisto MT";
+  Font-weight: bold;
+  color:paleturquoise;
+  font-size:34px;
 }
 #line {
-  width:65%;
-  z-index:100;
-  position:absolute;
-  right: 6%;
-  top: 20%;
-  border-top:2px solid black;
-} */
+  border-top:2.5px solid black;
+}
 .contact {
   display:inline-block;
-  width:30%;
-  border:1px solid green;
+  width:45%;
+  /* border:1px solid green; */
+  margin: 0px 0px 0px 10px;
+  font-family:"Calisto MT";
+  Font-weight: lighter;
+  color:rgb(0, 0, 0);
+  font-size:16px;
+}
+#phone {
+  padding:15px 0px 0px 0px;
 }
 #email {
-  border:1px solid purple;
-  float:right;
-
+  /* border:1px solid purple; */
+  float:right;  
+  padding: 0px 20% 0px 0px;
+  font-family:"Calisto MT";
+  Font-weight: lighter;
+  color:rgb(0, 0, 0);
+  font-size:16px;
 }
-/* .contact {
-  z-index:100;
-  position:absolute;
-  right:55.5%;
-  top:23%;
-}
-#Mass {
-  z-index: 100;
-  position:absolute;
-  right:48%;
-  top:23%;
-}
-#Phone {
-  z-index: 100;
-  position:absolute;
-  right:55.5%;
-  top:28%;
-}
-#Email {
-  z-index: 100;
-  position:absolute;
-  right:24%;
-  top:28%;
-} */
 #left-side {
   display:inline-block;
-  width:47%;
+  width:48%;
   height:100%;
+  font-family:"Calisto MT";
+  /* Font-weight: lighter; */
+  border:1px solid black;
+  padding: 0px 0px 0px 10px;
 }
 #right-side {
   display:inline-block;
-  width:47%;
-  height:100%;
+  width:50%;
   float:right;
+  font-family:"Calisto MT";
+  /* Font-weight: lighter; */
+  border:1px solid black;
+  padding: 33px 0px 0px 0px;
 }
-header .right-side {
-  float:right;
-  border:1px solid red;
-  width:76%;
+section h2 {
+  font-weight:bold;
+  font-size:21px
 }
+section h3 {
+  font-size:17px;
+}
+section p  {
+  font-size:14px
+}
+  /*.maintcontainer {
+     width:70%; 
+    }*/
+  /* h1 {
+    z-index:100;
+    position:absolute;
+    right:29%;
+    top:5%;
+  }
+  #line {
+    width:65%;
+    z-index:100;
+    position:absolute;
+    right: 6%;
+    top: 20%;
+    border-top:2px solid black;
+  } */
+  /* .contact {
+    z-index:100;
+    position:absolute;
+    right:55.5%;
+    top:23%;
+  }
+  #Mass {
+    z-index: 100;
+    position:absolute;
+    right:48%;
+    top:23%;
+  }
+  #Phone {
+    z-index: 100;
+    position:absolute;
+    right:55.5%;
+    top:28%;
+  }
+  #Email {
+    z-index: 100;
+    position:absolute;
+    right:24%;
+    top:28%;
+  } */
