@@ -1,0 +1,77 @@
+#blue-space {
+  width:100%;
+  background-color:paleturquoise;
+  height:22px;
+}
+#img-div {
+  display:inline-block;
+  border:1px solid black;
+  padding:10px 0px 0px 10px;
+}
+/*.maintcontainer {
+   width:70%; 
+}*/
+/* h1 {
+  z-index:100;
+  position:absolute;
+  right:29%;
+  top:5%;
+}
+#line {
+  width:65%;
+  z-index:100;
+  position:absolute;
+  right: 6%;
+  top: 20%;
+  border-top:2px solid black;
+} */
+.contact {
+  display:inline-block;
+  width:30%;
+  border:1px solid green;
+}
+#email {
+  border:1px solid purple;
+  float:right;
+
+}
+/* .contact {
+  z-index:100;
+  position:absolute;
+  right:55.5%;
+  top:23%;
+}
+#Mass {
+  z-index: 100;
+  position:absolute;
+  right:48%;
+  top:23%;
+}
+#Phone {
+  z-index: 100;
+  position:absolute;
+  right:55.5%;
+  top:28%;
+}
+#Email {
+  z-index: 100;
+  position:absolute;
+  right:24%;
+  top:28%;
+} */
+#left-side {
+  display:inline-block;
+  width:47%;
+  height:100%;
+}
+#right-side {
+  display:inline-block;
+  width:47%;
+  height:100%;
+  float:right;
+}
+header .right-side {
+  float:right;
+  border:1px solid red;
+  width:76%;
+}
