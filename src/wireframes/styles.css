@@ -75,6 +75,9 @@ section h3 {
 section p  {
   font-size:14px
 }
+#right-box {
+  margin: 60px 0px 0px 0px;
+}
 .measure {
   width: 40%;
   /* border: 1px solid black; */
