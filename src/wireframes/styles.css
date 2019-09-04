@@ -52,7 +52,7 @@ h1 {
   height:100%;
   font-family:"Calisto MT";
   /* Font-weight: lighter; */
-  border:1px solid black;
+  /* border:1px solid black; */
   padding: 0px 0px 0px 10px;
 }
 #right-side {
@@ -61,18 +61,46 @@ h1 {
   float:right;
   font-family:"Calisto MT";
   /* Font-weight: lighter; */
-  border:1px solid black;
+  /* border:1px solid black; */
   padding: 33px 0px 0px 0px;
 }
 section h2 {
   font-weight:bold;
-  font-size:21px
+  font-size:25px;
+  color:paleturquoise;
 }
 section h3 {
   font-size:17px;
 }
 section p  {
   font-size:14px
+}
+.measure {
+  width: 40%;
+  /* border: 1px solid black; */
+  display: inline-block;
+  margin: 10px 0px 0px 0px;
+}
+.black-line {
+  border-top:2.5px solid black;
+  display: inline-block;
+  width: 50%;
+}
+#line-1 {
+  margin: 2px 0px 0px 0px;
+  width: 45%;
+}
+#line-2 {
+  margin: 2px 0px 0px 0px;
+  width: 33%;
+}
+#line-3 {
+  margin: 2px 0px 0px 0px;
+  width: 27%;
+}
+#line-4 {
+  margin: 2px 0px 0px 0px;
+  width: 45%;
 }
   /*.maintcontainer {
      width:70%; 
