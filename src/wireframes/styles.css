@@ -8,12 +8,46 @@
   /* border:1px solid black; */
   padding:10px 0px 0px 10px;
 }
+@media (max-width:767px) {
+    #img-div {display:block;
+      width:auto;
+      margin-left:auto;
+      margin-right:auto;
+      margin:0 auto;
+      text-align:center;
+    }
+  }
+@media (max-width:480px) {
+    #img-div {display:block;
+      width:100%;
+      margin-left:auto;
+      margin-right:auto;
+      margin:0 auto;
+      text-align:center;
+    }
+}
 .header-text {
   float:right;
   /* border:1px solid red; */
   width:76%;
   margin: 30px 0px 0px 0px;
 }  
+@media (max-width:767px) {
+  .header-text {float:none;
+    width:100%;
+    margin-left:auto;
+    margin-right:auto;
+    margin:0 auto;
+  }
+}
+@media (max-width:480px) {
+  .header-text {float:none;
+    width:100%;
+    margin-left:auto;
+    margin-right:auto;
+    margin:0 auto;
+  }
+}
 h1 {
   text-align:center;
   font-family:"Calisto MT";
@@ -34,9 +68,30 @@ h1 {
   color:rgb(0, 0, 0);
   font-size:16px;
 }
+@media (max-width:767px) {
+  .contact {width:100%;
+    text-align:center;
+  }
+}
+@media (max-width:480px) {
+  .contact {width:100%;
+    text-align:center;
+  }
+}
 #phone {
   padding:15px 0px 0px 0px;
 }
+@media (max-width:767px) {
+  #phone {
+    padding: 5px 0px 0px 0px;
+  }
+}
+@media (max-width:480px) {
+  #phone {
+    padding: 5px 0px 0px 0px;
+  }
+}
+
 #email {
   /* border:1px solid purple; */
   float:right;  
@@ -46,23 +101,73 @@ h1 {
   color:rgb(0, 0, 0);
   font-size:16px;
 }
+@media (max-width:767px) {
+  #email {width:100%;
+    float:none;
+    text-align:center;
+    padding:5px 0px 0px 0px;
+
+  }
+}
+@media (max-width:480px) {
+  #email {width:100%;
+    float:none;
+    text-align:center;
+    padding:5px 0px 0px 0px;
+  }
+}
 #left-side {
   display:inline-block;
   width:48%;
   height:100%;
   font-family:"Calisto MT";
   /* Font-weight: lighter; */
-  /* border:1px solid black; */
+  border:1px solid black;
   padding: 0px 0px 0px 10px;
 }
+@media (max-width:767px) {
+  #left-side {
+    width:95%;
+    height:auto;
+    padding:0px 0px 0px 0px;
+    margin:0px 5px 0px 5px;
+  }
+}
+@media (max-width:480px) {
+  #left-side {
+    width:95%;
+    height:auto;
+    padding:0px 0px 0px 0px;
+    margin:0px 5px 0px 5px;
+  }
+}
+
 #right-side {
   display:inline-block;
   width:50%;
   float:right;
   font-family:"Calisto MT";
   /* Font-weight: lighter; */
-  /* border:1px solid black; */
-  padding: 33px 0px 0px 0px;
+  border:1px solid black;
+  padding: 33px 0px 0px 5px;
+}
+@media (max-width:767px) {
+  #right-side {
+    float:none;
+    width:95%;
+    height:auto;
+    padding:0px 0px 0px 0px;
+    margin:0px 5px 0px 5px;
+  }
+}
+@media (max-width:480px) {
+  #right-side {
+    display:inline-block;
+    width:95%;
+    height:auto;
+    padding:0px 0px 0px 0px;
+    margin:0px 5px 0px 0px;
+  }
 }
 section h2 {
   font-weight:bold;
@@ -105,38 +210,3 @@ section p  {
   margin: 2px 0px 0px 0px;
   width: 45%;
 }
-  /*.maintcontainer {
-     width:70%; 
-    }*/
-  /* h1 {
-    z-index:100;
-    position:absolute;
-    right:29%;
-    top:5%;
-  }
-  #line {
-    width:65%;
-    z-index:100;
-    position:absolute;
-    right: 6%;
-    top: 20%;
-    border-top:2px solid black;
-  } */
-  /* .contact {
-    z-index:100;
-    position:absolute;
-    right:55.5%;
-    top:23%;
-  }
-  #Mass {
-    z-index: 100;
-    position:absolute;
-    right:48%;
-    top:23%;
-  }
-  #Email {
-    z-index: 100;
-    position:absolute;
-    right:24%;
-    top:28%;
-  } */
