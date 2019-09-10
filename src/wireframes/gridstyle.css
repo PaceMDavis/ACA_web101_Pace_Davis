@@ -1,0 +1,15 @@
+
+body {
+  margin:0;
+}
+.garden {
+  background-color:black;
+}
+.garden .hello{
+  display:grid;
+  grid-template-columns: 1fr 2fr 4fr 1fr;
+  grid-template-rows: repeat(4, 25%);
+  row-gap: 50px;
+  column-gap:100px;
+  color:fuchsia;
+}
