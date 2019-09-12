@@ -1,0 +1,18 @@
+* {
+  box-sizing: border-box;
+  /* background-color:pink; */
+}
+body {
+  margin:0;
+  padding:0;
+}
+.bigbox {
+  display:grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: repeat(4,1fr);
+}
+.littlebox6 {
+  background-color:grey;
+  grid-column: 2/3;
+  grid-row:2/3;
+}
