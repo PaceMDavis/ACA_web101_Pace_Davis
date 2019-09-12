@@ -113,3 +113,14 @@ h1 {
 .is-equals {
   background: #28d060;
 }
+.todo-list {
+  grid-column:3/4;
+  grid-row:4/5;
+}
+.todo-rows {
+  padding:5px;
+
+  display:grid;
+  grid-template-rows: repeat(5,1fr);
+  grid-gap:5px;
+}
