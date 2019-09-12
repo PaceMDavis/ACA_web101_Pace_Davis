@@ -13,33 +13,45 @@ body {
   height:100%;
   width:100%;
 }
-.main-container img {
-  width:100%;
-  height:100%;
-}
-/* img {
-  width:100%;
-  height:100%;
-} */
 .box {
   width:100%;
   height:100%;
 }
 .littlebox1 {
-  background-color:black;
-  grid-column: 2/3;
-  grid-row:2/3;
+  /* background-color:black; */
+  grid-column: 1/6;
+  grid-row:1/5;
+}
+img {
+  width:100%;
+  height:100%;
 }
 .littlebox2 {
   /* background-color:fuchsia; */
   font-family: "New Baskerville";
   grid-column: 2/3;
   grid-row: 3/4;
+  display: flex;
+  align-content:center;
+  justify-content:center;
+  color:rgb(39, 28, 136);
 }
 .littlebox3 {
-  background-color:springgreen;
-  grid-column: 1/2;
-  grid-row: 4/5;
+  /* background-color:springgreen; */
+  grid-column: 2/3;
+  grid-row: 2/3;
+  display: flex;
+  align-content:center;
+  justify-content:center;
+  flex-wrap:wrap;
+}
+h1 {
+  font-family: "New Baskerville";
+  color:rgba(119, 5, 5, 0.699);
+  font-size: 45x;
+}
+.littlebox3 #h1-1 {
+  padding: 0px 30px 0px 0px;
 }
 .littlebox4 {
   background-color:blue;
@@ -47,7 +59,57 @@ body {
   grid-row: 4/5;
 }
 .littlebox5 {
-  background-color:sandybrown;
+  /* background-color:sandybrown; */
   grid-column: 3/4;
   grid-row: 1/2;
+  display: flex;
+  align-content:center;
+  justify-content:flex-end;
+  padding: 0px 30px 0px 0px;
+}
+.calculator {
+  grid-column: 1/2;
+  grid-row:4/5;
+  width:55%;
+  height:100%;
+  border: 2px solid black;
+  border-radius:5px;
+}
+.calculator input {
+  background: none;
+  border: none;
+  box-shadow:none;
+  width:100%;
+  border-bottom:2px solid black;
+  padding:5px;
+  text-align:right;
+  font-size:16px;
+}
+.calculator-buttons {
+  padding:5px;
+
+  display:grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-template-rows: repeat(5,1fr);
+  grid-gap:5px;
+}
+
+.calc-button {
+  background: rgba (0,0,0,0.5);
+  border: 1px solid #111;
+  padding: 10px;
+  color: rgb(173, 12, 12);
+  border-radius:5px;
+  font-size: 10px;
+  cursor:pointer;
+}
+.is-clear {
+  grid-column: span 3;
+  background: #3562d8;
+}
+.is-zero {
+  grid-column: span 3;
+}
+.is-equals {
+  background: #28d060;
 }
