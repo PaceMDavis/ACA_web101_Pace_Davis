@@ -13,7 +13,7 @@ body {
   display:flex;
   border:1px solid green;
   flex-direction:column;
-
+  background-color: rgb(242,247,251);
 }
 .header {
   display:flex;
@@ -25,6 +25,7 @@ body {
   color:black;
   align-items:center;
   justify-content:space-between;
+  padding: 0px 10px;
 }
 i {
   /* border:1px solid black; */
@@ -37,13 +38,19 @@ i {
 }
 .box {
   margin: 10px 20px;
+  display:flex;
   align-items:center;
-  justify-content:center;
-  border:1px solid red;
+  justify-content:space-around;
+  flex-direction:row;
+  /* border:1px solid red; */
+  margin: 20px 5%;
+  height: 100%;
 }
 .top {
-  border:1px solid blue;
+  /* border:1px solid blue; */
+  /* width:100%; */
   display:flex;
+  flex-direction:column;
   align-items:center;
   justify-content:center;
 }
@@ -52,20 +59,45 @@ i {
   color:white;
   padding:8px;
   border-radius:5px;
-  font-size:18px;
+  font-size:30px;
+  margin-bottom:10px;
   
 }
 .fa-home {
   color: rgb(64,153,255);
 }
-.first-box {
-  display:flex;
-  width:100%;
-  align-items:center;
-  justify-content:center;
-  flex-wrap:wrap;
-  margin: 10px 0px;
+.box p, .box i {
+  padding:0px;
+  margin:0px;
 }
-.align-right {
-  width:100%;
+#fa-home2 {
+  margin-top:20px;
+  font-size:20px;
+  color:black;
+  margin-left:auto;
+  margin-right:15px;
+}
+#bigger {
+  font-size:24px;
+}
+#smaller {
+  font-size: 20px;
+}
+.container {
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  margin: 0px 5%;
+  background-color:white;
+  box-shadow: 5px 5px 5px 5px #e2dfdf
+  /* border:1px solid royalblue; */
+}
+hr {
+  border-bottom: 1px solid black;
+  width:10%;
+}
+.left-align {
+  margin-right:auto;
+  margin-left: 20px;
 }
