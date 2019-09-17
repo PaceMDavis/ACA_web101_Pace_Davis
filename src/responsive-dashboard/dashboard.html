@@ -9,15 +9,16 @@
   <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
-  <div class="header">
-    <i class="fas fa-toggle-on"></i>
-    <p class="header-text">
-        <i class="fab fa-atlassian"></i>
-      ADMINDEK
-    </p>
-    <i class="fas fa-ellipsis-h"></i>
-  </div>
   <div class="main-container">
+    <div class="header">
+          <i class="fas fa-toggle-on"></i>
+          <p class="header-text">
+              <i class="fab fa-atlassian"></i>
+            ADMINDEK
+          </p>
+          <i class="fas fa-ellipsis-h"></i>
+          <i class="fas fa-toggle-on" id="desktop-toggle"></i>
+    </div>
     <div class="box top">
       <i class="fas fa-home" id="fa-home1"></i>
       <p id="bigger">Dashboard</p>
@@ -29,13 +30,68 @@
       <hr class="left-align">
       <img src="./combined_demo.png">
     </div>
-    <div class="container little-container2"></div>
-    <div class="container little-container3"></div>
-    <div class="container little-container4"></div>
-    <div class="container little-container5"></div>
-    <div class="container little-container6"></div>
-    <div class="container little-container7"></div>
-
+    <div class="card-padding" id="card1">
+              <div class="card-body">
+                <div class="text-body">
+                  <h3>Impressions<h3>
+                  <h4>1,563 <i class="far fa-eye"></i></h4>
+                  <h3>May 23- June 1 (2017)</h3>
+                </div>
+              </div>
+    </div>
+    <div class="card-padding" id="card2">
+          <div class="card-body">
+            <div class="text-body">
+              <h3>Goal<h3>
+              <h4 class="goal">30,564 <i class="far fa-eye" id="green"></i></h4>
+              <h3>May 23- June 1 (2017)</h3>
+            </div>
+          </div>
+    </div>
+      <div class="card-padding" id="card3">
+        <div class="card-body">
+          <div class="text-body">
+                <h3>Impact<h3>
+                <h4 class="impact">42.6% <i class="far fa-eye" id="gold"></i></h4>
+                <h3>May 23- June 1 (2017)</h3>
+          </div>
+        </div>
+      </div>
+      <div class="container little-container2">
+          <img src="social-music-sales-chart.jpg">
+      </div>
+      <div class="container little-container3">
+        <img src="./chart.png">
+      </div>
+      <div class="container little-container4">
+        <img src="chartjs-output.png">
+      </div>
+      <div class="navigation">
+        <div class="headings">Navigation</div>
+          <div class="sub-headings"><i class="fas fa-home"></i>Dashboard<div class="arrow">></div></div>
+          <div class="sub-headings"><i class="fas fa-pager"></i>Page Layouts<div class="arrow">></div></div>
+          <div class="sub-headings"><i class="fas fa-bars"></i>Navigation<div class="arrow">></div></div>
+          <div class="sub-headings"><i class="fas fa-cogs"></i>Widget<div class="arrow">></div></div>
+        <div class="headings">UI Element</div>  
+          <div class="sub-headings"><i class="fas fa-cube"></i>Basic<div class="arrow">></div></div>
+          <div class="sub-headings"><i class="fas fa-ethernet"></i>Advanced<div class="arrow">></div></div>
+          <div class="sub-headings"><i class="fas fa-cubes"></i>Extra<div class="arrow">></div></div>
+          <div class="sub-headings"><i class="fas fa-cog"></i>Animations<div class="arrow">></div></div>
+          <div class="sub-headings"><i class="fas fa-headset"></i>Icons<div class="arrow">></div></div>
+        <div class="headings">Forms</div>  
+          <div class="sub-headings"><i class="fab fa-forumbee"></i>Form<div class="arrow">></div></div>
+          <div class="sub-headings"><i class="fas fa-align-left"></i>Form Picker<div class="arrow">></div></div>
+      </div>
+    <div class="search-bar">
+      <div class="first"><i class="fas fa-search"></i></div>
+      <div class="second"><i class="fas fa-camera-retro"></i></div>
+      <div class="third"><i class="fas fa-phone"></i></div>
+      <div class="fourth"><i class="fas fa-portrait"></i></div>
+      <div class="fifth"><img src="headshot.jpg"></div>
+      <div class="sixth">John Smith</div>
+      
+      
+    </div>  
   </div>
 </body>
 </html>
