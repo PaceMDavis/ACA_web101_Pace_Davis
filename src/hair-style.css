@@ -4,6 +4,7 @@
 body {
   margin:0;
   padding:0;
+  font-family: 'Lato', sans-serif;
 }
 .mainContainer {
   width:100%;
@@ -16,60 +17,119 @@ body {
   align-items:center;
   flex-wrap:wrap;
   width:100%;
-  margin: 30px;
+  margin: 30px 0px;
 }
 .Mustache {
   width:300px;
   margin-bottom:30px;
-} 
+}
+@media (max-width:768px) {
+  .Mustache {
+    max-width:100%;
+  }
+}  
+
 .navigation {
   display:flex;
   flex-direction:row;
   justify-content:center;
   width:100%;
   margin-bottom:10px;
+  font-weight: 900;
+  font-size:14px;
+}
+.main1 i {
+  display:none
+}
+@media (max-width:480px) {
+  .main1 i {
+    display:block;
+    justify-content:center;
+    font-size:30px;
+  }
 }
 .list {
   padding:0px 20px;
 }
+@media (max-width:480px) {
+  .list {
+    display:none;
+  }
+}
 .main2 {
   width:100%;
-  height:70%;
+  height:90%;
   background-image: url("./christophe-dutour-Yg9UYltaplA-unsplash.jpg");
   display:flex;
   flex-direction:row;
   justify-content:flex-end;
   align-items:center;
 }
+@media (max-width:768px) {
+  .main2 {
+    width:100%;
+    height:100%;
+  }
+}
 .box-text {
-  margin-right:30px;
+  padding-right:70px;
 }
 .inspire1 {
   background-color:white;
-  padding:15px;
+  padding:20px;
+  font-size:24px;
+  font-weight:900;
 }
 .inspire {
   background-color:black;
   padding:15px;
   color:white;
+  font-size: 20px;
+  margin-right:0;
+  padding:10px 15px;
+}
+#special-text {
+  width:110%;
+}
+#special-text2 {
+  width:95%;
 }
 #button-style {
-  background-color:rgb(11,163,156)
+  background-color:rgb(11,163,156);
+  padding:20px;
+  border:none;
 }
 .main3 {
   width:100%;
   height:100%;
   display:flex;
-  justify-content:space-between;
+  justify-content:center;
   align-items:center;
   flex-direction:row;
 }
-/* .lower_Images {
-
-} */
+@media (max-width:768px) {
+  .main3 {
+    display:flex;
+    flex-direction:column;
+    height:auto;
+    width:100%;
+    margin-top:20px;
+  }
+}
 .Big {
-  height:50%;
+  height:40%;
   margin:30px;
+  padding:1px;
+  border:2px solid black;
+}
+@media (max-width:768px) {
+  .Big {
+    display:block;
+    height:300px;
+    width:300px;
+    margin:30px;
+
+  }
 }
 .name-Son {
   display:flex;
@@ -77,6 +137,61 @@ body {
   flex-direction:column;
   justify-content:center;
 }
+@media (max-width:768px) {
+  .name-Son {
+    width:100%;
+    height:100%;
+    align-items:center;
+  }
+}
 .name-Son p {
   text-align:center;
+  font-size:24px;
+  font-weight:900;
+}
+@media (max-width:768px) {
+  .name-Son p {
+    display:none;
+  }
+}
+.footer-move {
+  background-color:black;
+  color:white;
+  width:100%;
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 60px 0px;
+}
+.copyright {
+  grid-column:1;
+  text-align:center;
+  padding-top: 15px;
+  padding-right:20px;
+}
+@media (max-width:768px) {
+  .copyright {
+    display:none;
+  }
+}
+.socialMedia {
+  grid-column:2;
+  font-size:32px;
+  text-align:center;
+  padding-left:150px;
+}
+@media (max-width:768px) {
+  .socialMedia {
+    padding-left:0px
+  }
+}
+.fab {
+  padding:10px 10px;
+  margin: 0px 5px;
+  border:1px solid white;
+}
+@media (max-width:768px) {
+  .footer-move {
+    display:flex;
+    justify-content:center;
+  }
 }
