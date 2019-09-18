@@ -445,14 +445,16 @@ h3 {
     row-gap:20px; */
   }
 }
- .search-bar img {
+ /* .search-bar img {
   height:100px;
   width:105px;
   padding: 23% 10px 23% 10px;
   border-radius:15px;
   float:right;
-  /* border:1px solid grey; */
-}
+  border:1px solid grey;
+} */
+
+
 .search-bar .fas {
   color:black;
   font-size:30px;
@@ -467,7 +469,13 @@ h3 {
 }
 
 .fifth {
-  display:inline-block;
+  /* display:inline-block; */
+  height:50px;
+  width:50px;
+  /* padding: 23% 10px 23% 10px; */
+  border-radius: 50%;
+  float:right;
+
   /* color:rgb(255, 255, 255, 0.5); */
 }
 .third {
