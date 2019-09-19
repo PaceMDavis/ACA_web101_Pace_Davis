@@ -50,13 +50,14 @@ body {
 }
  .fuchsia-box {
   /* background-color:fuchsia; */
-  grid-column:7/8;
+  grid-column:7/9;
   grid-row:5/7;
   display: flex;
   justify-content: center;
   align-items: center;
   color:goldenrod;
   font-size:20px;
+  padding-right:60px;
   /* border-radius:50%; */
 }
 #button1 {
@@ -79,10 +80,13 @@ body {
   color:goldenrod;
   font-size:20px;
 }
-.dummy {
+.green-box .fa-arrow-circle-o-left {
+  margin-right:10px;
+}
+/* .dummy {
   width: 7%;
   height:100%;
-}
+} */
 .palegreen-box {
   grid-column: 1/7;
   grid-row:3/9;
