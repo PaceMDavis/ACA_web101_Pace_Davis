@@ -1,0 +1,221 @@
+* {
+  box-sizing:border-box;
+}
+body {
+  margin:0;
+  padding:0;
+}
+.color-icons {
+  /* background-color:pink; */
+  width:100%;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  margin-top:50px;
+  padding:10px;
+}
+.color-icons .fa-address-book{
+  color: rgb(7, 7, 7,0.3);
+  padding-right:10px;
+}
+.color-icons p {
+  color:black;
+}
+.slight-shadow {
+  width:100%;
+  height:250px;
+  display:inline-block;
+  background-color:green;
+  text-align:center;
+  margin-top:20px;
+  color:white;
+}
+#header {
+  font-size:40px;
+  text-shadow: 2px 2px 2px black;
+}
+#revenue {
+  font-size:25px;
+  text-shadow: 1px 1px 1px pink;
+}
+#lower-box {
+  font-size: 20px;
+  text-shadow: 3px 3px 3px white;
+}
+.buttons {
+  width:100%;
+  display:inline-block;
+  text-align:center;
+  margin-top:30px;
+}
+#get-in-touch {
+  border-radius:10px;
+  font-size:40px;
+  background-image:linear-gradient(to bottom,  rgb(112, 15, 15, 0.8) ,hsl(241, 94%, 45%));
+  color:white;
+  padding:20px;
+  
+}
+.create-account {
+  width:100%;
+  display:inline-block;
+  text-align:center;
+  margin-top:30px;
+}
+.create-account button {
+  text-transform:capitalize;
+  border-radius:10px;
+  font-size:40px;
+  padding:20px;
+  color:white;
+  background-color:seagreen;
+}
+#hover:hover {
+  transform:translateY(-2px);
+  box-shadow: 25px 3px 12px;
+  background-color:rgb(39, 112, 71);
+}
+.vertical-offset {
+  width:40%;
+  height:225px;
+  display:inline-block;
+  margin-left:375px;
+  margin-right:auto;
+  border-radius:5px;
+  background-color:green;
+  text-align:center;
+  margin-top:20px;
+  margin-bottom:30px;
+  color:white;
+  box-shadow: 0px 2px 3px 0 rgb(0, 0, 0, 0.075);
+}
+.hue-saturation {
+  width:100%;
+  height:250px;
+  display:inline-block;
+  border-radius:5px;
+  background-color:rgba(23, 56, 78, 0.664);
+  text-align:center;
+  margin-top:20px;
+  margin-bottom:30px;
+  color:white;
+  box-shadow: 0px 2px 3px 0 rgb(0, 0, 0, 0.075);
+}
+
+
+
+.saturate-everything-grey {
+  font-size:40px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.neutral-negatives {
+  display:flex;
+  width:50%;
+  margin-left:400px;
+  margin-top:20px;
+  background-color:rgb(122, 122, 122,0.4);
+  justify-content:flex-end;
+}
+#neutral-wins {
+  padding:20px;
+  font-size:18px;
+  color:rgba(128, 128, 128, 0.75);
+}
+#move {
+  margin:20px;
+  border-radius:5px;
+  padding:10px;
+  background-color:rgba(28, 79, 218, 0.918);
+  color:white;
+  font-size:20px;
+}
+.heirarchy-buttons {
+  display:flex;
+  width:50%;
+  margin-left:400px;
+  margin-top:20px;
+  background-color:rgb(122, 122, 122,0.4);
+  justify-content:flex-end;
+}
+.heirarchy-buttons button {
+  margin:20px;
+  border-radius:5px;
+  padding:10px;
+  /* background-color:rgba(28, 79, 218, 0.918); */
+  font-size:20px;
+  color:rgba(28, 79, 218, 0.918);
+  border:1px solid rgba(128, 128, 128, 0.9);
+  background-color:rgb(122, 122, 122,0);
+}
+.text-heirarchy {
+  width:40%;
+  height:225px;
+  display:inline-block;
+  margin-left:375px;
+  margin-right:auto;
+  border-radius:5px;
+  background-color:rgb(255, 255, 255, .5);
+  text-align:center;
+  margin-top:30px;
+  margin-bottom:30px;
+  color:white;
+  box-shadow: 0px 2px 3px 0 rgb(0, 0, 0, 0.075);
+}
+#black-text {
+  font-size:24px;
+  color:black;
+}
+#grey-text {
+  font-size:16px;
+  color: rgba(0, 0, 0, 0.377);
+}
+.letter-spacing {
+  width:40%;
+  height:225px;
+  display:inline-block;
+  margin-left:375px;
+  margin-right:auto;
+  border-radius:5px;
+  background-color:rgb(255, 255, 255, .5);
+  text-align:center;
+  margin-top:30px;
+  margin-bottom:30px;
+  box-shadow: 0px 2px 3px 0 rgb(0, 0, 0, 0.075);
+}
+
+.letter-spacing p {
+  font-size:16px;
+  text-transform:uppercase;
+  letter-spacing: 2px;  
+  color: rgb(0, 0, 0);
+}
+
+.slightly-contrasted {
+  width:40%;
+  height:225px;
+  display:inline-block;
+  margin-left:375px;
+  margin-right:auto;
+  border-radius:5px;
+  /* background-color:rgb(255, 255, 255, .5); */
+  text-align:center;
+  margin-top:30px;
+  margin-bottom:30px;
+  /* box-shadow: 0px 2px 3px 0 rgb(0, 0, 0, 0.075); */
+}
+#black-text {
+  background-color: rgba(128, 128, 128, 0.377);
+  font-size:20px;
+  padding:5px;
+  margin:0;
+  color:white;
+}
+#grey-text {
+  background-color:rgba(128, 128, 128, 0.493);
+  font-size:16px;
+  padding:20px;
+  margin:0;
+  color:white;
+}
+
