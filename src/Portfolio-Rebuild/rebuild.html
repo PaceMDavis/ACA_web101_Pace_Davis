@@ -39,7 +39,7 @@
   </header>
   <A Name="Dance"></A>
   <div class="iframe-container">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/yURRmWtbTbo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/tCnBrrnOefs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </div>
 
   <div class="forms-forever">
@@ -47,7 +47,7 @@
     <form action="" method="post" class="form-me">
       <p id="Contact">Contact Me</p>
       <label>
-        <span>Your Name</span>
+        <span>Your Name :</span>
         <input id="name" type="text" name="name" placeholder="Your Name"/>
       </label>
 
@@ -57,21 +57,40 @@
       </label>
 
       <label>
-          <span>Message :</span>
-          <textarea id="message" name="message" placeholder="Your Message to Us"></textarea>
+          <span id="text-area">Message :</span>
+          <div></div>
+          <textarea id="message" name="message" placeholder="Your Message to Us" cols=100% rows="10"></textarea>
       </label> 
        <label>
           <span>Subject :</span><select name="selection">
           <option value="Job Inquiry">Employment Opportunity</option>
       <option value="General Question">Design Question</option>
-          </select>
       <option value="General Question">Coding Question</option>
           </select>
-      </label>    
-       <label>
+      </label>
+      <label>
+          <span>Location :</span><select name="selection">
+          <option value="Location">Location</option>
+      <option value="General Question">United States</option>
+      <option value="General Question">Europe</option>
+      <option value="General Question">Mexico</option>
+      <option value="General Question">Canada</option>
+      <option value="General Question">Asia</option>
+      <option value="General Question">Middle East</option>
+      <option value="General Question">Central America</option>
+      <option value="General Question">South America</option>
+          </select>
+      </label>
+      <label>
           <span>&nbsp;</span> 
-          <input type="button" class="button" value="Send" /> 
-      </label>    
+          <input type="button" class="button" value="Reset" id="dont-click" /> 
+          <span>&nbsp;</span> 
+          <input type="button" class="button" value="Submit" id="button-style" />
+      </label>       
+       <!-- <label>
+          <span>&nbsp;</span> 
+          <input type="button" class="button" value="Submit" /> 
+      </label>     -->
     </form>
   </div>
 </body>

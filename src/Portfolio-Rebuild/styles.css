@@ -24,7 +24,7 @@ header {
 }
 .logo {
   font-size:30px;
-  border:1px solid red;
+  /* border:1px solid red; */
   width: 45%;
   float:right;
   margin:20px 0px 20px 20px;
@@ -47,7 +47,7 @@ nav {
   nav {
     display:flex;
     float:right;
-    border:1px solid orange;
+    /* border:1px solid orange; */
     text-transform:lowercase;
     margin-top:10px;
   }
@@ -61,7 +61,7 @@ nav p {
 
 .declarations {
   width:100%;
-  border: 1px solid fuchsia;
+  /* border: 1px solid fuchsia; */
   color:rgba(255, 255, 255, 0.8);
   display:flex;
   flex-direction:column;
@@ -77,7 +77,7 @@ nav p {
   }
 }
 .declarations img {
-  width: 34%;
+  width: 30%;
   display:block;
   border-radius: 50%;
   /* margin-left:80px; */
@@ -93,6 +93,8 @@ nav p {
   display:flex;
   flex-direction:column;
   padding: 10px;
+  text-align:center;
+  padding:20px 80px;
 }
 @media (min-width:968px) {
   .text-holder {
@@ -127,16 +129,37 @@ nav p {
 }
 #Contact {
   font-size:24px;
+  padding-bottom:15px;
 }
 label {
-  /* border: 1px solid black; */
+  /* border: 1px solid blue; */
   display:block;
   padding:10px 0px;
+  padding-left:10px;
+  padding-right:10px;
 }
-
+label .button {
+  /* border: 1px solid green; */
+  border-radius: 8px;
+  padding: 6px 12px;
+  margin: 0px 10px;
+  font-size:18px;
+}
+#button-style {
+  background-color: rgba(23, 120, 211, 0.897);
+  color:white;
+  font-weight:600;
+}
+#dont-click {
+  color: rgb(145, 141, 141, 1)
+}
 input, textarea {
-  background-color:rgb(145, 141, 141, 0);
-
+  background-color:rgb(145, 141, 141, .2);
+}
+label select {
+  background-color:rgb(145, 141, 141, .2)
+}
+#text-area {
 }
 /* form {
   margin-left:auto;
