@@ -60,7 +60,7 @@ nav {
     margin-top:10px;
   }
 }
-nav p {
+nav p, #portfolio {
   margin:10px;
   font-size:24px;
 
