@@ -120,6 +120,7 @@ nav p {
   grid-column:2;
   grid-row:1;
   border:none;
+  overflow:hidden;
 }
 
 .number5 {
@@ -131,6 +132,9 @@ nav p {
   grid-column:3;
   grid-row:2;
   background-color:white;
+}
+#Responsive-dashboard {
+  overflow:hidden;
 }
 @media (max-width:850px){
   .number6 {
