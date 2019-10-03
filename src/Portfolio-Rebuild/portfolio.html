@@ -1,0 +1,138 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="./reset.css">
+  <link rel="stylesheet" href="./portfolioStyles.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/d0d92469fc.js" crossorigin="anonymous"></script>
+  <title>Portfolio</title>
+</head>
+<body>
+  <header class="info">
+      <div class="logo">
+          <span>Pace Davis</span>
+        </div>
+        <div class="hamburger">
+            <i class="fas fa-bars"></i>
+        </div>
+        <nav class="move-it">
+          <p>About</p>
+          <p>Portfolio</p>
+          <A HREF="#Contact">
+            <p>Contact<A HREF="#Contact"></p>
+          </A>
+          <A HREF="#Dance">
+            <p>Dance</p>
+          </A>
+        </nav>
+  </header>
+  <div class="Grids">
+      <div class="workDisplay number1">
+        <iframe id="NasaPage"
+          scrolling="no"
+          title="Nasa Page"
+          width=100%
+          height="100%"
+          src="https://pacemdavis.github.io/ACA_web101_Pace_Davis/src/flexbox/nasa.html">
+        </iframe>
+      </div>
+      <div class="workDisplay number2">
+          <iframe id="CSSGrids"
+          scrolling="no"
+          title="CSS Grids"
+          width=100%
+          height="100%"
+          src="https://pacemdavis.github.io/ACA_web101_Pace_Davis/src/css-grids/grids.html">
+        </iframe>
+      </div>
+      <div class="workDisplay number3">
+          <iframe id="MediaQueries"
+          scrolling="no"
+          title="Media Queries"
+          width=100%
+          height="100%"
+          src="https://pacemdavis.github.io/ACA_web101_Pace_Davis/src/media-queries/media-q.html">
+        </iframe>
+      </div>
+      <div class="workDisplay number4">
+          <iframe id="Responsive-dashboard"
+          scrolling="no"
+          title="Responsive Dashboard"
+          width=100%
+          height="100%"
+          src="https://pacemdavis.github.io/ACA_web101_Pace_Davis/src/responsive-dashboard/dashboard.html">
+        </iframe>
+      </div>
+      <div class="workDisplay number5">
+          <iframe id="UI-details"
+          scrolling="no"
+          title="UI details"
+          width=100%
+          height="100%"
+          src="https://pacemdavis.github.io/ACA_web101_Pace_Davis/src/ui-details/index.html">
+        </iframe>
+      </div>
+      <div class="workDisplay number6">
+          <iframe id="NasaPage"
+          scrolling="no"
+          title="Nasa Page"
+          width=100%
+          height="100%"
+          src="https://pacemdavis.github.io/ACA_web101_Pace_Davis/src/wireframes/wireframe.html">
+        </iframe>
+      </div>
+  </div>
+  <div class="forms-forever">
+      <A Name="Contact"></A>
+      <form action="" method="post" class="form-me">
+        <p id="Contact">Contact Me</p>
+        <label>
+          <span>Your Name :</span>
+          <input id="name" type="text" name="name" placeholder="Your Name"/>
+        </label>
+  
+        <label>
+          <span>Your Email :</span>
+          <input id="email" type="email" name="email" placeholder="Your Email Address" />
+        </label>
+  
+        <label>
+            <span id="text-area">Message :</span>
+            <div></div>
+            <textarea id="message" name="message" placeholder="Your Message to Us" cols=100% rows="10"></textarea>
+        </label> 
+         <label>
+            <span>Subject :</span><select name="selection">
+            <option value="Job Inquiry">Employment Opportunity</option>
+        <option value="General Question">Design Question</option>
+        <option value="General Question">Coding Question</option>
+            </select>
+        </label>
+        <label>
+            <span>Location :</span><select name="selection">
+            <option value="Location">Location</option>
+        <option value="General Question">United States</option>
+        <option value="General Question">Europe</option>
+        <option value="General Question">Mexico</option>
+        <option value="General Question">Canada</option>
+        <option value="General Question">Asia</option>
+        <option value="General Question">Middle East</option>
+        <option value="General Question">Central America</option>
+        <option value="General Question">South America</option>
+            </select>
+        </label>
+        <label>
+            <span>&nbsp;</span> 
+            <input type="button" class="button" value="Reset" id="dont-click" /> 
+            <span>&nbsp;</span> 
+            <input type="button" class="button" value="Submit" id="button-style" />
+        </label>       
+         <!-- <label>
+            <span>&nbsp;</span> 
+            <input type="button" class="button" value="Submit" /> 
+        </label>     -->
+      </form>
+</body>
+</html>
