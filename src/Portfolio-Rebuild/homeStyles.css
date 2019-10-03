@@ -7,9 +7,12 @@ header {
   width:100%;
   background-image: url(./Images/mikesh-kaos-dUV3oohJzE8-unsplash.jpg);
   background-size:cover;
-  padding-bottom:100px;
+  /* padding-bottom:100px; */
 }
-
+header .overlay {
+  background-color: rgba(0,0,0, 0.61);
+  width:100%;
+}
 .hamburger {
   border: 1px solid greenyellow;
   width:15%;
