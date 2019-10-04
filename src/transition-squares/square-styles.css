@@ -18,6 +18,12 @@ body {
   height:50px;
   /* background-color:green; */
 }
+.square:nth-of-type(odd) {
+  transition: all 3s ease;
+}
+.square:nth-of-type(even) {
+  transition: all 1.5s cubic-bezier(0.075, 0.82, 0.165, 1)
+}
 
 
 .square-1 {
@@ -60,9 +66,8 @@ body {
 
 .main-container:hover .square:nth-of-type(odd) {
   transform: scale(2) translateX(200px) rotate(360deg);
-  transition: all 3s ease;
+  
 }
 .main-container:hover .square:nth-of-type(even) {
   transform: scale(.5) translateX(-200px) rotate(-360deg);
-  transition: all 1.5s cubic-bezier(0.075, 0.82, 0.165, 1)
 }
