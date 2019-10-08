@@ -42,6 +42,16 @@ nav .nav-image {
   padding-right: 20px;
 }
 @media (min-width:768px) {
+  nav .nav-image {
+    padding-right:0px;
+  }
+}
+.nav-image2 {
+  padding-top:50px;
+  width:150px;
+  padding-right:20px;
+}
+@media (min-width:768px) {
   .nav-image2 {
     display:none;
   }
@@ -119,6 +129,7 @@ nav ul.nav-items--mobile{
 }
 nav ul.nav-items--mobile img {
   width:30%;
+  padding-top:130px;
 }
 
 nav .mobile-nav-button {
@@ -167,11 +178,6 @@ nav ul li:nth-of-type(4) {
 nav ul li:hover {
   transform: translateY(-2px) scale(1.05);
   cursor: pointer;
-}
-@media (min-width:768px) {
-  nav ul li {
-    font-size:20px;
-  }
 }
 
 .showNav {
