@@ -1,0 +1,114 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Home</title>
+  <link href="https://fonts.googleapis.com/css?family=Domine:400,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/d0d92469fc.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./checkpoint-home-styles.css">
+</head>
+<body>
+    <header class="header">
+      <div class="overlay">
+      <nav>
+        <div class="mobile-nav-button" onclick="openNav()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <ul class="nav-items--mobile">
+          <img src="./images/coffee-logo.png" alt="Coffee" class="georgia-coffee">
+          <li>Home</li>
+          <li>Menu</li>
+          <li>Catering</li>
+          <li>Friends</li>
+          <li>Story</li>
+          <li>Contact</li>
+        </ul>
+        <ul class="nav-items--desktop">
+          <li id="clicked">Home</li>
+          <li>Menu</li>
+          <li>Catering</li>
+          <img class="nav-image" src="./images/coffee-logo.png" alt="Coffee" class="georgia-coffee">
+          <li>Friends</li>
+          <li>Story</li>
+          <li>Contact</li>
+        </ul>
+        <img class="nav-image2" src="./images/coffee-logo.png" alt="Coffee" class="georgia-coffee">
+        <div class="filler"></div>
+      </nav>
+      <div class="mobile-display">
+          <p class="text-mobile">
+            2 locations serving only the fairest, 24 hours a day, 7 days a week.
+          </p>  
+        </div>
+      </div>  
+    </header>
+    <div class="story">
+      <div class="our-story-container">
+        <div class="iframe-container">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/yncYbnB79QE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="our-story">
+          <h1>Our story</h1>
+          <p>
+            Georgia Coffee is an independently owned 24-hour coffee shop with locations in east and central Austin. We offer high-quality, fair-trade coffee, locally sourced food and friendly service in a clean, comfortable atmosphere. Our guests can enjoy cozy indoor/outdoor seating, free Wi-Fi, large tables and workspaces and plenty of free parking. We are your around-the-clock, neighborhood coffeeshop perfect for socializing, studying, relaxing or just grabbing a delicious cup of joe to go.
+          </p>
+          <p>
+            Our beverage menu features personal French press service offered with a variety of rotating organic beans, seven signature gourmet mochas, an endless variety of customizable espresso drinks and a daily offering of fresh brewed iced teas. And, of course, we also serve our acclaimed cold brew coffee - the original inspiration and recipe for nationally-sold bottled coffee, Chameleon Cold Brew.
+          </p>
+        </div>
+      </div>
+      <div class="small-text-line">
+          <p>Our Specialties</p>
+          <!-- <hr> -->
+      </div>
+      <div class="flex-specialty">
+        <div class="specialty-drink">  
+          <img src="./images/eiliv-sonas-aceron-iYhVYb-eT7c-unsplash.jpg" alt="Coffee Drink">
+        </div>
+        <div class="drinks">
+          <h1>The Nightman</h1>
+          <p>
+            We specialize in Gourmet Mochas. Try the house favorite! Blend of dark chocolate powder & Sauce topped with home-made whipped cream & drizzled with dark chocolate.
+          </p>
+        </div>  
+      </div>
+      <div class="three-dots">
+        <span id="orange"></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+    <!-- <div class="our-specialty"> -->
+      
+    <!-- </div> -->
+    <footer>
+      <div class="overlay2">
+        <div class="locations">
+          <div class="east-location">
+            <p>2001 E MLK BLVD</p>
+            <p>(512) 478-4700</p>
+            <p>Austin, TX 78702</p>
+            <p>bennucoffee@gmail.com</p>
+          </div>
+          <div class="south-location">
+              <p>515 S Congress Ave</p>
+              <p>(512) 448-3919</p>
+              <p>Austin, TX 78704</p>
+              <p>coffeeoncongress@gmail.com</p>
+          </div>
+        </div>
+        <div class="social-icons">
+            <img src="images/iconfinder-icon.svg">
+            <img src="./images/iconfinder_2018_social_media_popular_app_logo_twitter_3225183.svg">
+            <img src="./images/iconfinder_2018_social_media_popular_app_logo_instagram_3225191.svg">
+
+        </div>
+      </div>
+    </footer>
+  <script src="./Coffee-checkpoint.js"></script>
+</body>
+</html>
