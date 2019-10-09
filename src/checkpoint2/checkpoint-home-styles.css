@@ -232,16 +232,13 @@ nav ul li:hover {
   top:0;
   left:0;
   width: 100%;
-  height: 100%;
+  height:100%;
   border-radius: 20px;
 }
-@media (min-width:768px) {
-  .iframe-container {
-    
-  }
-}
+
 @media (min-width:768px) {
   .iframe-container iframe {
+  height:350px;
   }
 }
 .our-story h1 {
@@ -250,6 +247,7 @@ nav ul li:hover {
   color:#F4A706;
   font-size:32px;
   font-family: 'Roboto Condensed', sans-serif;
+  /* margin:60px; */
 }
 .our-story p {
   padding: 0 0 20px 0;
