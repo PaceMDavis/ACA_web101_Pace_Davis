@@ -29,11 +29,7 @@ nav {
   align-items: center;
   padding: 30px 50px;
 }
-@media (min-width:768px) {
-  nav {
-  
-  }
-}
+
 nav .nav-image {
   /* margin-left:20%;
   margin-top:30px; */
@@ -158,7 +154,7 @@ nav .mobile-nav-button span {
   background-color: #F4A706;
 }
 
-nav ul li {
+nav ul li{
   text-transform: uppercase;
   font-size: 1.8em;
   letter-spacing: 1.1;
@@ -174,7 +170,10 @@ nav ul li:hover {
   transform: translateY(-2px) scale(1.05);
   cursor: pointer;
 }
-
+nav ul a {
+  color:inherit;
+  text-decoration:inherit;
+}
 .showNav {
   display: flex !important;
   z-index:1;

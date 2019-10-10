@@ -106,7 +106,7 @@ nav ul.nav-items--desktop {
 }
 
 @media (min-width:768px) {
-  nav ul.nav-items--desktop li {
+  nav ul.nav-items--desktop li, nav ul.nav-items--desktop a {
     margin-top:110px;
   }
 }
@@ -182,10 +182,10 @@ nav ul li:hover {
   transform: translateY(-2px) scale(1.05);
   cursor: pointer;
 }
-@media (min-width:768px) {
-  nav ul li {
-    /* font-size:20px; */
-  }
+nav ul a {
+  color:inherit;
+  text-decoration:inherit;
+
 }
 
 .showNav {
