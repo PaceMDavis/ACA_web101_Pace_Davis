@@ -102,12 +102,16 @@ nav ul.nav-items--desktop {
   justify-content: space-between;
   align-items: center;
   flex: 1;
+  transition: border-bottom .5s ease;
 }
 
 @media (min-width:768px) {
   nav ul.nav-items--desktop li {
     margin-top:110px;
   }
+}
+nav ul.nav-items--desktop li:hover {
+  border-bottom: 5px solid #F4A706;
 }
 nav ul.nav-items--mobile{
   display: none;
