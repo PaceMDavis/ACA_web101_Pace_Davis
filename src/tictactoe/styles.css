@@ -35,7 +35,7 @@ td:nth-of-type(3) {
   border-right:0;
 }
 
-.endgame {
+/* .endgame {
   display:none;
   width:200px;
   top:120px;
@@ -49,8 +49,12 @@ td:nth-of-type(3) {
   border-radius: 5px;
   color: white;
   font-size: 2em;
+} */
+.button-holder {
+  position:absolute;
+  bottom:30%;
+  left:42%;
 }
-
 
 
 

@@ -8,15 +8,15 @@
 </head>
 <body>
   <!-- <div class="game-grid">
-    <div onclick="addGamePiece(this)"></div>
-    <div onclick="addGamePiece(this)"></div>
-    <div onclick="addGamePiece(this)"></div>
-    <div onclick="addGamePiece(this)"></div>
-    <div onclick="addGamePiece(this)"></div>
-    <div onclick="addGamePiece(this)"></div>
-    <div onclick="addGamePiece(this)"></div>
-    <div onclick="addGamePiece(this)"></div>
-    <div onclick="addGamePiece(this)"></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
   </div>
    -->
 
@@ -37,11 +37,20 @@
       <td class="cell" id="8"></td>
      </tr>
    </table>
-   <div class="endgame">
-     <div class="text"></div>
-   </div>
-   <button onClick="startGame()">Replay</button>
+   <div class="endgame"></div>
+   <div class="button-holder">
+      <button class="startGame">Replay</button>
+    </div>
+    <div class="Player-labels">
+        <p>Player 1 = X</p>
+        <p>Player 2 = O</p>
+    </div>
 
+  <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous">
+  </script>
   <script src="./app.js"></script>
 </body>
 </html>
