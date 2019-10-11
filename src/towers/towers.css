@@ -9,7 +9,7 @@ body {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  height: 34px;
+  height: 20px;
   margin: 25px;
   border: 1px solid lightgray;
 }
@@ -18,9 +18,9 @@ body {
   background-color: #f6c5c5;
 }
 
-[data-row].yellow {
+/* [data-row].yellow {
   background-color: #ffffa9;
-}
+} */
 
 [data-row].green {
   background-color: #baf6ba;
@@ -36,7 +36,7 @@ body {
 }
 
 [data-color="blue"] {
-  height: 33px;
+  height: 25px;
   background-color: blue;
 }
 
@@ -46,12 +46,12 @@ body {
 }
 
 [data-color="red"] {
-  height: 33px;
+  height: 42px;
   background-color: red;
 }
 
 [data-color="yellow"] {
-  height: 33px;
+  height: 55px;
   background-color: yellow;
 }
 
