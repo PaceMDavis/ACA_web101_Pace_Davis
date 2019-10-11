@@ -7,7 +7,30 @@
   <link rel="stylesheet" href="./todo.css">
 </head>
 <body>
-  <div class="main-container">
+  <div id="myDIV" class="header">
+      <h2>My To Do List</h2>
+      <input type="text" id="myInput" placeholder="Title...">
+      <span onclick="newElement()" class="addBtn">Add</span>
+    </div>
+    
+    <ul id="myUL">
+      <li>Hit the gym</li>
+      <li class="checked">Pay bills</li>
+      <li>Meet George</li>
+      <li>Buy eggs</li>
+      <li>Read a book</li>
+      <li>Organize office</li>
+    </ul>
+  <script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous">
+  </script>
+  <script src="./todo.js"></script>
+</body>
+</html>
+
+<!-- <div class="main-container">
     <div class="todo-container">
       <div class="todo-container--header">
         <h2>todo list</h2>
@@ -20,12 +43,4 @@
         </div>
       </div>
     </div>
-  </div>
-  <script
-  src="https://code.jquery.com/jquery-3.4.1.js"
-  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
-  crossorigin="anonymous">
-  </script>
-  <script src="./todo.js"></script>
-</body>
-</html>
+  </div> -->
