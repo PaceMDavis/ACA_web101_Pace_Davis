@@ -1,0 +1,337 @@
+* {
+  display:border-box;
+  padding:0;
+  margin:0;
+}
+body {
+  font-family: 'Domine', serif;
+  background-color: rgb(249,244,232);
+}
+header {
+  font-family: 'Roboto Condensed', sans-serif;
+  width:100%;
+  background: url(./images/home-image.jpg);
+  height:440px;
+  background-size:cover;
+  background-position:center;
+  position:relative;
+}
+.overlay {
+  background-color: rgba(0,0,0,0.45);
+  width:100%;
+  height:100%;
+}
+nav {
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 50px;
+}
+
+nav .nav-image {
+
+  width:120px;
+  padding-top:30px;
+  padding-right: 20px;
+}
+.nav-image2 {
+  padding-top:50px;
+  width:150px;
+  padding-right:20px;
+}
+.mobile-display {
+  display:flex;
+  flex-wrap:wrap;
+  width:100%;
+  flex-direction:row;
+  justify-content:center;
+  align-items:center;
+}
+
+.mobile-display p {
+  width:55%;
+  font-size: 30px;
+  color:white;
+  font-weight:600;
+  padding:30px 0 0 60px;
+
+}
+nav .mobile-nav-button {
+  display: flex;
+  list-style: none;
+}
+
+nav ul.nav-items--desktop {
+  display:none;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex: 1;
+  transition: border-bottom .5s ease;
+}
+
+nav ul.nav-items--desktop li:hover {
+  border-bottom: 5px solid #F4A706;
+}
+nav ul.nav-items--mobile{
+  display: none;
+  height: 100%;
+  width: 100%;
+  padding: 4em 0;
+  flex-direction: column;
+  align-items:center;
+  justify-content:center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url(./images/dan-cook-RoPwpPukkXw-unsplash.jpg);
+  background-size:cover;
+  animation: moveInRight 0.5s ease-out;
+  list-style:none;
+  padding-bottom:300px;
+}
+nav ul.nav-items--mobile img {
+  width:30%;
+  padding-top:130px;
+}
+
+nav .mobile-nav-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 48px;
+  width: 48px;
+  padding: 8px 0;
+  z-index: 2;
+}
+
+nav .mobile-nav-button:hover {
+  cursor: pointer;
+}
+
+nav .mobile-nav-button span {
+  height: 5px;
+  width: 70%;
+  border-radius: 1px;
+  background-color: #F4A706;
+}
+
+nav ul li{
+  text-transform: uppercase;
+  font-size: 1.8em;
+  letter-spacing: 1.1;
+  flex: 1;
+  text-align: center;
+  transition: all 225ms ease-in-out;
+  color:white;
+  font-weight:600;
+  padding:25px;
+}
+
+nav ul li:hover {
+  transform: translateY(-2px) scale(1.05);
+  cursor: pointer;
+}
+nav ul a {
+  color:inherit;
+  text-decoration:inherit;
+}
+.showNav {
+  display: flex !important;
+  z-index:1;
+}
+
+.story {
+  width:85%;
+  margin-left:auto;
+  margin-right:auto;
+  background-color: rgb(249,244,232);
+  background-size:cover;
+  display:flex;
+  overflow:auto;
+  flex-direction:column;
+}
+
+.iframe-container{
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; 
+  height: 0;
+  margin-top:32px;
+}
+.iframe-container iframe{
+  position: absolute;
+  top:0;
+  left:0;
+  width: 100%;
+  height:100%;
+  border-radius: 20px;
+}
+
+
+.our-story h1 {
+  text-transform:uppercase;
+  padding:25px 0 15px 0;
+  color:#F4A706;
+  font-size:32px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+.our-story p {
+  padding: 0 0 20px 0;
+}
+
+.small-text-line p {
+  font-size: 12px;
+  border-bottom-style:dotted;
+  text-align:right;
+  margin-top:25px;
+}
+.specialty-drink {
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  margin-top: 20px;
+}
+.story img {
+  width:100%;
+  max-width:200px;
+  border-radius: 12px;
+}
+.drinks h1 {
+  text-transform:uppercase;
+  padding:25px 0 15px 0;
+  color:#81BDA6;
+  font-size:32px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+.drinks p {
+  padding: 0 0 20px 0;
+}
+
+.three-dots {
+  width:100%;
+  margin-top:10px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+.three-dots span {
+  width:10px;
+  height:10px;
+  background-color:#666;
+  margin:5px;
+  border-radius:50%;
+}
+.three-dots #orange {
+  background-color: #F4A706;
+}
+footer {
+  display:flex;
+  width:100%;
+  height:200px;
+  margin-top:50px;
+  background: url(./images/dan-cook-RoPwpPukkXw-unsplash.jpg);
+  background-size: cover;
+}
+.overlay2 {
+  background-color: rgba(0,0,0,0.8);
+  width:100%;
+}
+
+.locations {
+  display:flex;
+  margin-top:50px;
+  margin-left:10px;
+}
+
+.east-location {
+  padding:5px;
+}
+.south-location {
+  padding:5px;
+}
+
+.locations p {
+  color:white;
+  font-size: 12px;
+  padding:2px;
+}
+.social-icons {
+  display:flex;
+  width:70%;
+  justify-content:space-around;
+  margin-top:15px;
+}
+.social-icons img {
+  width:25px;
+  height:25px;
+}
+
+/* Media Queries */
+
+@media (min-width:768px) {
+  nav .nav-image {
+    padding-right:0px;
+  }
+  .nav-image2 {
+    display:none;
+  }
+  .mobile-display {
+    height:100%;
+    justify-content:flex-start;
+  }
+  .mobile-display p{
+    width:100%;
+    justify-content:flex-start;
+    align-items:center;
+    margin-left:100px;
+    max-width:500px;
+    font-size:40px;
+    padding: 0px 0 0 60px;
+  }
+  nav ul.nav-items--desktop li {
+    margin-top:110px;
+  }
+  nav ul.nav-items--desktop {
+    display:flex;
+    list-style:none;
+    justify-content:center;
+  }
+  nav .mobile-nav-button {
+    display:none;
+  }
+  .our-story-container {
+    display:flex;
+    flex-direction:row;
+  }
+  .story {
+    flex-direction:column;
+  }
+  .iframe-container iframe {
+    height:350px;
+    }
+  .our-story {
+    width:100%;
+    padding:20px 0 0 40px;
+  }
+  .flex-specialty {
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around; 
+  }
+  .story img {
+    margin-top:30px;
+  }
+  .drinks {
+    max-width:400px;
+    margin-top:20px;
+  }
+  .locations {
+    padding-left:30px;
+  }
+  .south-location {
+    padding-left:100px;
+  }
+}
