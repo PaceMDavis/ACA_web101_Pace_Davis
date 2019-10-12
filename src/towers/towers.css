@@ -10,12 +10,15 @@ body {
   justify-content: flex-start;
   align-items: center;
   height: 20px;
-  margin: 25px;
+  margin: 45px;
   border: 1px solid lightgray;
 }
 
 [data-row].red {
   background-color: #f6c5c5;
+  display:flex;
+  justify-content:flex-start;
+  align-items:center;
 }
 
 /* [data-row].yellow {
@@ -28,6 +31,9 @@ body {
 
 [data-row].blue {
   background-color: aliceblue;
+  display:flex;
+  justify-content:flex-start;
+  align-items:center;
 }
 
 [data-color] {
