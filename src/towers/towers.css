@@ -39,6 +39,7 @@ body {
 [data-color] {
   width: 25px;
   float: left;
+  justify-self:flex-start;
 }
 
 [data-color="blue"] {

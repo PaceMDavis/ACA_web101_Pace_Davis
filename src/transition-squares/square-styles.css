@@ -65,8 +65,7 @@ body {
 
 
 .main-container:hover .square:nth-of-type(odd) {
-  transform: scale(2) translateX(200px) rotate(360deg);
-  
+  transform: scale(2) translateX(200px) rotate(360deg); 
 }
 .main-container:hover .square:nth-of-type(even) {
   transform: scale(.5) translateX(-200px) rotate(-360deg);
