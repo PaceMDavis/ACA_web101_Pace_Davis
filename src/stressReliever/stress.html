@@ -1,0 +1,60 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Stress Reliever</title>
+  <link href="https://fonts.googleapis.com/css?family=Hepta+Slab:400,700,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./stress.css">
+</head>
+<body>
+  <div class="main-container">
+    <div class="game">
+      <div class="coffee-classes">
+        <div class="dripMe">
+          <h3>Cups - <span id="drip">0</span></h3>
+          <button class="dripCoffee" id="buyCoffee">
+            Buy a cup of drip - <span id="dripCost">10</span>
+            <!-- <span id="drip">0</span>
+            <span id="dripCost">10</span> -->
+          </button>
+        </div>
+        <div class="espressoMe">
+            <h3>Double Shots - <span id="espresso">0</span></h3>
+            <button class="espressoCoffee" id="buyEspresso">
+              Buy a double shot of espresso - <span id="espressoCost">100</span>
+            </button>
+        </div>
+        <div class="frenchPress">
+            <h3>Cups - <span id="frenchPress">1000</span></h3>
+            <button class="frenchPressCofee" id="buyFrenchPress">
+              Buy a French Press - <span id="frenchCost">1000</span>
+              <!-- <span id="drip">0</span>
+              <span id="dripCost">10</span> -->
+            </button>
+        </div>
+        <!-- <button class="espresso" onclick="buyCoffee">
+          <span id="espresso">0</span>
+          <span id="espressoCost">100</span>
+        </button>
+        <button class="frenchPress" onclick="buyCoffee">
+          <span id="frenchPress">0</span>
+          <span id="frenchPressCost">1000</span>
+        </button> -->
+      </div>
+      <div class="coffeeCup">
+        <img src="./—Pngtree—vector cup of coffee_1104351.png" alt="coffe cup" id="cup" onclick="coffeeClick(1)">
+        <p id="productivity">Lines of code written</p>
+        <div id="codeCounter"></div>
+      </div>
+  
+    </div>
+  </div>
+<script
+src="https://code.jquery.com/jquery-3.4.1.min.js"
+integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+crossorigin="anonymous">
+</script>
+<script src="./stress.js"></script>
+</body>
+</html>
