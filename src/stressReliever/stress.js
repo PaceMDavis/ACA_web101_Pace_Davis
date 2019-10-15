@@ -6,6 +6,8 @@
 //frenchCost is the cost for a french press at beginning
 let linesOfCode = 0;
 let coffees = 0;
+let shots = 0;
+let press = 0;
 let dripCost = 10;
 let espresso = 100;
 let french = 1000;
@@ -18,6 +20,10 @@ function coffeeClick(number) {
   linesOfCode = linesOfCode + number;
   document.getElementById("codeCounter").innerHTML = linesOfCode;
 };
+
+$('#cup').on("click", function(){
+  $('#cup').addClass('bounce-class');
+});
 
 //#buyCoffee is called with a click function
 $("#buyCoffee").on("click", function(){
@@ -53,30 +59,41 @@ $("#buyCoffee").on("click", function(){
 
 
 
+// $('#cup').on("click", function(){
+//   $('#cup').removeClass('bounce-class');
+// })
 
+
+// $('#cup').click(function() {
+//   $("#cup").effect("bounce", "slow");
+// });
+
+// function doAnimation(){
+//   $("#cup").effect("bounce", {times:500}, 10, doAnimation);
+// }
 
 
 
 $("#buyEspresso").on("click", function(){
   //coffeeCost is 10* coffees *1.1, and floor makes sure it doesn't increase in amounts less than 1
-  let espressoCost = Math.floor(100 * Math.pow(1.1, coffees));
+  let espressoCost = Math.floor(100 * Math.pow(1.1, shots));
   //if statement allowing purchasing of coffee
   if(linesOfCode >= espressoCost){
   //coffees are purchased and added to display
-    coffees = coffees + 1;
+    shots = shots + 1;
   //clicker is changed when coffeeCost is subtracted
     linesOfCode = (linesOfCode - espressoCost);
   //Span is updated to reflect purchased coffees
-    $('#espresso').text(coffees);
+    $('#espresso').text(shots);
   //
     // $('#codeCounter').innerHTML = linesOfCode;
   };
   //newCost is the new clicks required to purchase cups
-  let newCost = Math.floor(100 * Math.pow(1.1, coffees));
+  let newCost = Math.floor(100 * Math.pow(1.1, shots));
   // $('dripCost').append(newCost);
   $('#espressoCost').text(newCost);
   setInterval(function() {
-    coffeeClick(coffees);
+    coffeeClick(shots);
   }, 1000);
   
 });
@@ -87,24 +104,28 @@ $("#buyEspresso").on("click", function(){
 
 $("#buyFrenchPress").on("click", function(){
   //coffeeCost is 10* coffees *1.1, and floor makes sure it doesn't increase in amounts less than 1
-  let frenchCost = Math.floor(1000 * Math.pow(1.1, coffees));
+  let frenchCost = Math.floor(1000 * Math.pow(1.1, press));
   //if statement allowing purchasing of coffee
   if(linesOfCode >= frenchCost){
   //coffees are purchased and added to display
-    coffees = coffees + 1;
+    press = press + 1;
   //clicker is changed when coffeeCost is subtracted
     linesOfCode = (linesOfCode - frenchCost);
   //Span is updated to reflect purchased coffees
-    $('#frenchPress').text(coffees);
+    $('#frenchPress').text(press);
   //
     // $('#codeCounter').innerHTML = linesOfCode;
   };
   //newCost is the new clicks required to purchase cups
-  let newCost = Math.floor(1000 * Math.pow(1.1, coffees));
+  let newCost = Math.floor(1000 * Math.pow(1.1, press));
   // $('dripCost').append(newCost);
   $('#frenchCost').text(newCost);
   setInterval(function() {
-    coffeeClick(coffees);
+    coffeeClick(press);
   }, 500);
   
 });
+
+$square2.on('click', ()=>{
+  $sound.play();
+})
