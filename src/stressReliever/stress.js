@@ -12,7 +12,8 @@ let dripCost = 10;
 let espresso = 100;
 let french = 1000;
 // var button = $(".dripCoffee");
-
+//create a variable for sound
+let $pop = $('#pop')[0];
 //function coffeeClick controls the clicker increasing
 //number allows it to change and not be static
 //lines of code is increased by the number of clicks each counted as one
@@ -21,9 +22,21 @@ function coffeeClick(number) {
   document.getElementById("codeCounter").innerHTML = linesOfCode;
 };
 
-$('#cup').on("click", function(){
+$('#cup').click(function(){
   $('#cup').addClass('bounce-class');
+  setTimeout(removeClass, 50);
 });
+
+$('#cup').on('click', ()=>{
+  if(!$pop) return;
+  $pop.currentTime = 0;
+  $pop.play();
+})
+
+function removeClass () {
+  $('#cup').removeClass('bounce-class');
+}
+
 
 //#buyCoffee is called with a click function
 $("#buyCoffee").on("click", function(){
@@ -126,6 +139,3 @@ $("#buyFrenchPress").on("click", function(){
   
 });
 
-$square2.on('click', ()=>{
-  $sound.play();
-})
