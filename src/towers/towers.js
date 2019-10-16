@@ -21,18 +21,23 @@ $(function() {
     },
   });
   $(row).droppable( {
-
+    drop: function(ev, ui) {
+      var dropped = ui.draggable;
+      var droppedOn = $(this);
+      $(dropped).detach().css({top: 0,left: 0}).appendTo(droppedOn);
+  }
   });
+  
   // $(row).ondrop(function() {
   //   if ring 
   // })
 })
-let moveBlocks = document.ring
-$(function() {
-  if (validDrop) {
-    moveBlocks.style.left = '1px'
-  }
-})
+// let moveBlocks = document.ring
+// $(function() {
+//   if (validDrop) {
+//     moveBlocks.style.left = '1px'
+//   }
+// })
 //containment: '.red' || '.green' || '.blue',
 //three squares - different sizes
 //larger squares cannot go on top of smaller
